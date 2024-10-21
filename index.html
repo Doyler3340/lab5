@@ -1,17 +1,48 @@
-<html></html>
+<!DOCTYPE html>
+<html>
+<!-- The HTML document starts here -->
+<head>
+    <title>Form Submission Example</title> <!-- The title of the webpage, displayed in the browser tab -->
+</head>
+
 <body>
+    <!-- The main content of the webpage starts here -->
+
+    <!-- Heading for the page -->
     <h1>Hello World!?!?!?</h1>
+
+    <!-- GET method form -->
     <form action="/name" method="get">
+        <!-- This form sends a GET request to the /name route when submitted -->
+        
+        <!-- Input field for first name -->
         First name: <input type="text" name="firstname"><br>
+
+        <!-- Input field for last name -->
         Last name: <input type="text" name="lastname"><br>
+
+        <!-- Submit button to send the form data -->
         <input type="submit" value="Submit">
     </form>
 
+    <!-- Subheading for the second form (POST method) -->
     <h2>Post method</h2>
+
+    <!-- POST method form -->
     <form action="/name" method="post">
+        <!-- This form sends a POST request to the /name route when submitted -->
+
+        <!-- Input field for first name -->
         First name: <input type="text" name="firstname"><br>
+
+        <!-- Input field for last name -->
         Last name: <input type="text" name="lastname"><br>
+
+        <!-- Submit button to send the form data -->
         <input type="submit" value="Submit">
     </form>
 </body>
+<!-- The main content of the webpage ends here -->
+
 </html>
+<!-- The HTML document ends here -->
